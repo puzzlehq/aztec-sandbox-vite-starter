@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "DEBUG=sandcastle:* vite --force",
+    "dev": "DEBUG=app:* vite --force",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
@@ -13,10 +13,9 @@
     "compile": "aztec-cli compile src/contracts/** --outdir ../../artifacts --typescript ../../artifacts"
   },
   "dependencies": {
-    "@aztec/aztec.js": "^0.9.0",
-    "@aztec/circuits.js": "^0.9.0",
-    "@aztec/foundation": "^0.9.0",
-    "@aztec/noir-contracts": "^0.9.0",
+    "@aztec/aztec.js": "^0.11.0",
+    "@aztec/circuits.js": "^0.11.0",
+    "@aztec/noir-contracts": "^0.11.0",
     "@aztec/types": "^0.9.0",
     "@radix-ui/react-avatar": "^1.0.4",
     "@radix-ui/react-dialog": "^1.0.5",
@@ -28,7 +27,6 @@
     "@radix-ui/react-select": "^2.0.0",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-tabs": "^1.0.4",
-    "base64-js": "^1.5.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "cmdk": "^0.2.0",

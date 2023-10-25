@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
-import { nodePolyfills } from 'vite-plugin-node-polyfills'
+import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import path, { dirname } from 'path';
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 import { createRequire } from 'module';
 

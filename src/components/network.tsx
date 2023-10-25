@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import { atom, useAtom } from 'jotai';
 import debug from 'debug';
 
-const logger = debug('sandcastle:network');
+const logger = debug('app:network');
 logger.enabled = true;
 
 const { VITE_SANDBOX_URL } = import.meta.env;
